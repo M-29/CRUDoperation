@@ -1,0 +1,60 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CRUDoperation.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="parentdiv">
+
+        <div class="childdiv1">
+            <span class="user"><b>Users</b></span>
+             <span class="btn1"><button type="button" id="btn" class="btn">Create</button></span>
+        </div>
+        
+        <div class="childdiv2">
+         <table id="table-id" class="fixTableHead">
+            <thead>
+                    <tr>
+                      <th>#</th>
+                      <th>Avatar</th>
+                      
+                      <th>First</th>
+                      <th>Last</th>
+                      <th>Username</th>
+                      <th>Action</th>
+                    </tr>
+                  </thead>
+                  <div class="bodydiv">
+                  <tbody>
+
+                  </tbody>
+                </div>
+          </table>
+        </div>
+        <div class="big-modal">
+            <div class="modal-content">
+                <h3 id="heading"><b>Create User</b></h3>
+                <form id="form" onsubmit="validate()">
+                    <input type="text" placeholder="First" id="first">
+                    <div id="errmsg"></div>
+                    <input type="text" placeholder="Last" id="last">
+                    <div id="errmsg1"></div>
+                    <input type="text" placeholder="UserName" id="Username">
+                    <div id="errmsg2"></div>
+                    <button type="button" id="okayButton">OK</button>
+                </form>
+            </div>
+        </div>
+        <div class="bg-flex">
+            <div class="flex-content">
+                <h3>Row with index <span id="index"></span> <span id="text"></span></h3>
+                <button id="removebtn">Remove</button>
+            </div>
+        </div>
+        </div>
+    <script src="CRUDoperation.js"></script>
+</body>
+</html>

@@ -1,0 +1,125 @@
+.childdiv1{
+    margin: auto;
+    padding-left: 120px;
+    
+}
+.user{
+    font-size: 20px;
+}
+.btn1{
+    padding-left: 850px;
+    
+}
+.btn{
+    background-color: grey;
+    color: honeydew;
+    border:none;
+    padding: 10px;
+    border-radius: 3px;
+}
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    table-layout: fixed;
+    
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 5px;
+    column-rule-width: outset;
+  }
+  .fixTableHead {
+    overflow-y: auto;
+    height: 110px;
+  }
+  .fixTableHead thead th {
+    position: sticky;
+    top: 0;
+  }
+  th {
+    background: #ABDD93;
+  }
+  
+  tr:nth-child(even) {background-color: #f2f2f2;}
+  th{
+      border-bottom: 1px solid ;
+  }
+  .big-modal,.bg-flex{
+      width: 100%;
+      height: 100%;
+      background-color:rgb(0,0,0,0.7);
+      position: absolute;
+      top: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      display: none;
+  }
+  .modal-content{
+      width: 400px;
+      height: 350px;
+      background-color:white;
+      border-radius: 4px;
+      text-align: center;
+      padding: 20px;
+      position: relative;
+  }
+  .flex-content
+  {
+    width: 400px;
+    height: 200px;
+    background-color:white;
+    border-radius: 4px;
+    text-align: center;
+    color: gray;
+    margin-top: 40px;
+    position: relative;
+  }
+input{
+    width: 150px;
+    display: block;
+    margin: 15px auto;
+    padding: 10px;
+
+}
+#okayButton{
+    color: white;
+    background-color: purple;
+    size: 100px;
+    border-radius: 3px;
+    border: none;
+    padding: 10px;
+}
+#removebtn{
+    color: white;
+    background-color: purple;
+    size: 100px;
+    border-radius: 3px;
+    border: none;
+    padding: 10px;
+}
+#imageround{
+    border-radius: 80%;
+}
+#delbtn{
+    border-color: red;
+    padding: 10px;
+    border-radius: 5px;
+    color: red;
+}
+#editbtn{
+    border-color: grey;
+    padding: 10px;
+    border-radius: 5px;
+}
+#errmsg1,#errmsg2,#errmsg{
+    color: red;
+    display: flex;
+    margin-left: 113px;
+    width: 200px;
+    justify-content: flex-start;
+}
